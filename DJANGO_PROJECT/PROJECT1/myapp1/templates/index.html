@@ -1,0 +1,18 @@
+<html>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'index.css'%}">
+    <body>
+        <h1>WELCOME 2 GCLOUD FAMILY!</h1>
+        <div>
+            <img id="image" src="https://imgv3.fotor.com/images/slider-image/A-clear-image-of-a-woman-wearing-red-sharpened-by-Fotors-image-sharpener.jpg" width=720 height=480>
+            <button id="clickBtn">Click</button>
+            <!-- <video controls src="https://drive.google.com/file/d/12DYG-W3Ew_d5-0MR1E7JOV1lbYDCl-0n/view?usp=drive_link" width=720 height=480></video> -->
+            <!-- <video controls width=720 height=480>
+                <source src="https://drive.google.com/file/d/12DYG-W3Ew_d5-0MR1E7JOV1lbYDCl-0n/preview" type='video/mp4'/> 
+            </video> -->
+            <iframe src="https://drive.google.com/file/d/12DYG-W3Ew_d5-0MR1E7JOV1lbYDCl-0n/preview" width=720 height=480></iframe>
+        </div>
+    </body>
+    {% load static%}
+    <script src="{% static 'myscript.js'%}"></script>
+</html>
